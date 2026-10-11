@@ -11,12 +11,24 @@ public class Aircraft {
         this.capacity = capacity;
     }
 
+    public void setManufacturer(String manufacturer){
+        this.manufacturer = manufacturer;
+    }
+
     public String getManufacturer(){
         return this.manufacturer;
     }
 
+    public void setModel(String model){
+        this.model = model;
+    }
+
     public String getModel(){
         return this.model;
+    }
+
+    public void setCapacity(int capacity){
+        this.capacity = capacity;
     }
 
     public int getCapacity(){

@@ -16,7 +16,15 @@ public class IndirectFlight extends Flight{
         return 0.0;
     }
 
+    public void setRefuelingFee(double refuelingFee){
+        this.refuelingFee = refuelingFee;
+    }
+
     public double getRefuelingFee(){return refuelingFee;}
+
+    public void setStopovers(List<Stopover> stopovers){
+        this.stopovers = stopovers;
+    }
 
     public List<Stopover> getStopovers(){return stopovers;}
 

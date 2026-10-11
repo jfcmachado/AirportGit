@@ -19,7 +19,15 @@ public class Stopover {
 
     public boolean isBoardingAtStopover(){return boardingAtStopover;}
 
+    public void setAirport(Airport airport){
+        this.airport = airport;
+    }
+
     public Airport getAirport(){return airport;}
+
+    public void setIndirectFlight(IndirectFlight indirectFlight){
+        this.indirectFlight = indirectFlight;
+    }
 
     public IndirectFlight getIndirectFlight(){return indirectFlight;}
 

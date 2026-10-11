@@ -19,13 +19,33 @@ public abstract class Flight {
         this.destination = destination;
     }
 
+    public void setFlightId(int flightId){
+        this.flightId = flightId;
+    }
+
     public int getFlightId(){ return flightId;}
+
+    public void setDepartureTime(LocalDateTime departureTime){
+        this.departureTime = departureTime;
+    }
 
     public LocalDateTime getDepartureTime(){ return departureTime;}
 
+    public void setBoardingGate(String boardingGate){
+        this.boardingGate = boardingGate;
+    }
+
     public String getBoardingGate(){return boardingGate;}
 
+    public void setAircraft(Aircraft aircraft){
+        this.aircraft = aircraft;
+    }
+
     public Aircraft getAircraft(){ return aircraft;}
+
+    public void setDestination(Airport destination){
+        this.destination = destination;
+    }
 
     public Airport getDestination(){ return destination;}
 
